@@ -1,0 +1,8 @@
+language = "python3"
+entrypoint = "run.sh"
+
+[nix]
+channel = "stable-23_05"
+
+[deployment]
+run = ["sh", "run.sh"]
